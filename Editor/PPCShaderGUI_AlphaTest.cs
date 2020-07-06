@@ -264,7 +264,6 @@ namespace UnityEditor
 		static void SetMaterialKeywords(Material material)
 		{
 			// Note: keywords must be based on Material value not on MaterialProperty due to multi-edit & material animation
-			SetKeyword(material, "_ALPHATEST_ON", true);
 
 			// A material's GI flag internally keeps track of whether emission is enabled at all, it's enabled but has no effect
 			// or is enabled and may be modified at runtime. This state depends on the values of the current flag and emissive color.

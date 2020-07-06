@@ -74,7 +74,6 @@ Shader "Custom/Rickter/PPC/AlphaPremultiplied"
 
 		#pragma target 5.0
 		#pragma shader_feature _EMISSION
-		//#pragma shader_feature _ALPHAPREMULTIPLY_ON
 		#pragma shader_feature_local PPC_AO_ENABLED
 		#pragma shader_feature_local PPC_EMISSION_OSCILLATOR_ENABLED
 		#pragma shader_feature_local PPC_TRANSLUCENCY_ENABLED
